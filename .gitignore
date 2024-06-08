@@ -21,3 +21,10 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/java-demo/.classpath
+/java-demo/.project
+/java-demo/.settings/org.eclipse.jdt.core.prefs
+/java-demo/.settings/org.eclipse.m2e.core.prefs
+/java-demo/target/classes/META-INF/MANIFEST.MF
+/java-demo/target/classes/META-INF/maven/com.test/java-pro/pom.properties
+/java-demo/target/classes/META-INF/maven/com.test/java-pro/pom.xml
