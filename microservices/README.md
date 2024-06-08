@@ -1,4 +1,4 @@
-To generalize the service architecture for managing various types of assets or liabilities (such as cars, bikes, properties, or credit cards), you can create a more flexible and modular system that accommodates the specifics of different asset types while sharing common functionalities. This approach allows for the efficient reuse of code and easier maintenance. Here’s how to structure such a generalized service architecture:
+To generalize the service architecture for managing various types of assets or liabilities (such as cars, bikes, properties, or credit cards), this is created a more flexible and modular system that accommodates the specifics of different asset types while sharing common functionalities. This approach allows for the efficient reuse of code and easier maintenance. Here’s how to structure such a generalized service architecture:
 
 ### Core Microservices
 
