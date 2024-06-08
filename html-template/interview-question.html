@@ -1,0 +1,86 @@
+Here's a sample HTML page with interview questions and answers for the topics you provided:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Questions</title>
+</head>
+<body>
+    <h1>Java 8 vs 17 vs 21</h1>
+    <h2>Features:</h2>
+    <ul>
+        <li>Lambda expressions</li>
+        <li>Stream API</li>
+        <li>Optional class</li>
+        <li>Interface enhancements (default and static methods)</li>
+        <li>New Date and Time API (java.time package)</li>
+    </ul>
+
+    <h1>Collections</h1>
+    <h2>1. HashMap Internal Working:</h2>
+    <p>HashMap uses a hash table to store key-value pairs. It internally uses an array to store the elements, where each element is a linked list (bucket) containing key-value pairs with the same hash code.</p>
+    
+    <h2>2. Difference:</h2>
+    <ul>
+        <li>Array vs ArrayList: Arrays have a fixed size, while ArrayLists can dynamically grow.</li>
+        <li>HashMap vs TreeMap: HashMap is unordered and uses hashing, while TreeMap is ordered and uses a red-black tree.</li>
+        <li>Map vs HashMap: Map is an interface, and HashMap is a class implementing that interface.</li>
+        <li>ArrayList vs LinkedList: ArrayList uses a dynamic array, while LinkedList uses a doubly linked list.</li>
+    </ul>
+
+    <h2>3. Concurrency and ConcurrentHashMap:</h2>
+    <p>Concurrency is the ability to run multiple threads concurrently. ConcurrentHashMap is a thread-safe implementation of the Map interface, designed for concurrent use without the need for external synchronization.</p>
+
+    <h2>4. Fail-Safe Iterator vs Fail-Fast Iterator:</h2>
+    <p>Fail-Safe Iterator makes a copy of the collection and iterates over the copy, so it does not throw ConcurrentModificationException if the collection is modified during iteration. Fail-Fast Iterator, on the other hand, throws ConcurrentModificationException if the collection is modified during iteration.</p>
+
+    <h1>OOPs Concepts</h1>
+    <h2>SOLID Principles:</h2>
+    <ul>
+        <li>Single Responsibility Principle (SRP): A class should have only one reason to change.</li>
+        <li>Open/Closed Principle (OCP): Software entities should be open for extension but closed for modification.</li>
+        <li>Interface Segregation Principle (ISP): Clients should not be forced to depend on interfaces they do not use.</li>
+        <li>Liskov Substitution Principle (LSP): Objects of a superclass should be replaceable with objects of its subclasses without affecting the functionality.</li>
+        <li>Dependency Injection (DI): Objects should depend on abstractions, not on concretions.</li>
+    </ul>
+
+    <h1>Design Patterns</h1>
+    <ul>
+        <li>Singleton Pattern: Ensures a class has only one instance and provides a global point of access to it. Example: Spring Framework's singleton beans.</li>
+        <li>Factory Pattern: Defines an interface for creating objects, but lets subclasses decide which class to instantiate. Example: java.util.Calendar class uses getInstance() method to create Calendar objects.</li>
+        <li>Abstract Factory Pattern: Provides an interface to create families of related or dependent objects without specifying their concrete classes. Example: javax.xml.parsers.DocumentBuilderFactory.</li>
+        <li>Prototype Pattern: Used when creating an instance of a class is expensive or complex. It involves creating new objects by copying an existing object, known as the prototype. Example: java.lang.Object's clone() method.</li>
+    </ul>
+
+    <h1>How to Create a Singleton Class?</h1>
+    <p>To create a singleton class, you can use the following approach:</p>
+    <pre>
+        public class Singleton {
+            private static final Singleton instance = new Singleton();
+        
+            private Singleton() {}
+        
+            public static Singleton getInstance() {
+                return instance;
+            }
+        }
+    </pre>
+
+    <h1>How to Create an Immutable Class?</h1>
+    <p>To create an immutable class, follow these steps:</p>
+    <ul>
+        <li>Make the class final so it cannot be extended.</li>
+        <li>Make all fields private and final.</li>
+        <li>Do not provide setter methods for fields.</li>
+        <li>Ensure that methods do not modify the state of the object.</li>
+        <li>Return a new instance for methods that modify the state, instead of modifying the current instance.</li>
+    </ul>
+
+    <!-- Add more questions and answers as needed -->
+
+</body>
+</html>

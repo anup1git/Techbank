@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Interview Questions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        h2 {
+            font-size: 1.2em; /* Reduce the font size for questions */
+            color: #333;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        .panel {
+            display: none;
+            background-color: #f9f9f9;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .show-panel {
+            display: block;
+        }
+
+        .toggle-btn {
+            cursor: pointer;
+            color: blue;
+            text-decoration: underline;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Java Interview Questions</h1>
+
+    <h2>
+        <span>Q: What are the key features of Java 8?</span>
+        <button class="toggle-btn">Answer</button>
+    </h2>
+    <div class="panel">
+        <h3>Answer:</h3>
+        <p>Java 8 introduced several new features, including:</p>
+        <ul>
+            <li>Lambda expressions</li>
+            <li>Stream API</li>
+            <li>Default methods in interfaces</li>
+            <li>Functional interfaces</li>
+            <li>New Date and Time API (java.time package)</li>
+        </ul>
+    </div>
+
+    <h2>
+        <span>Q: Explain the internal working of HashMap in Java.</span>
+        <button class="toggle-btn">Answer</button>
+    </h2>
+    <div class="panel">
+        <h3>Answer:</h3>
+        <p>HashMap in Java uses a hash table to store key-value pairs. It uses an array to store the elements, where each element is a linked list (bucket) containing key-value pairs with the same hash code. When a key-value pair is inserted into the HashMap, the hash code of the key is used to determine the index of the bucket in the array. If multiple key-value pairs have the same hash code, they are stored in the same bucket as a linked list.</p>
+    </div>
+
+    <h2>
+        <span>Q: What is the difference between an array and an ArrayList in Java?</span>
+        <button class="toggle-btn">Answer</button>
+    </h2>
+    <div class="panel">
+        <h3>Answer:</h3>
+        <p>The main differences between an array and an ArrayList in Java are:</p>
+        <ul>
+            <li>Arrays have a fixed size, while ArrayLists can dynamically grow.</li>
+            <li>Arrays can contain primitive types and objects, while ArrayLists can only contain objects.</li>
+            <li>Arrays use square brackets ([]) for declaration, while ArrayLists use the ArrayList class.</li>
+            <li>Arrays are more efficient for direct element access, while ArrayLists are more flexible and provide additional methods for manipulation.</li>
+        </ul>
+    </div>
+    <h2>
+        <span>Q: Concurrency and ConcurrentHashMap</span>
+        <button class="toggle-btn">Answer</button>
+    </h2>
+    <div class="panel">
+        <h3>Answer:</h3>
+        <p>Concurrency is the ability to run multiple threads concurrently. ConcurrentHashMap is a thread-safe implementation of the Map interface, designed for concurrent use without the need for external synchronization.</p>
+    </div>
+
+    <h2>
+        <span>Q: Fail-Safe Iterator vs Fail-Fast Iterator</span>
+        <button class="toggle-btn">Answer</button>
+    </h2>
+    <div class="panel">
+        <h3>Answer:</h3>
+        <p>Fail-Safe Iterator makes a copy of the collection and iterates over the copy, so it does not throw ConcurrentModificationException if the collection is modified during iteration. Fail-Fast Iterator, on the other hand, throws ConcurrentModificationException if the collection is modified during iteration.</p>
+    </div>
+
+
+    <h2>
+        <span>Q: Explain SOLID Principles in Java</span>
+        <button class="toggle-btn">Answer</button>
+    </h2>
+    <div class="panel">
+        <h3>Answer:</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Principle</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Single Responsibility Principle (SRP)</td>
+                    <td>A class should have only one reason to change.</td>
+                </tr>
+                <tr>
+                    <td>Open/Closed Principle (OCP)</td>
+                    <td>Software entities should be open for extension but closed for modification.</td>
+                </tr>
+                <tr>
+                    <td>Interface Segregation Principle (ISP)</td>
+                    <td>Clients should not be forced to depend on interfaces they do not use.</td>
+                </tr>
+                <tr>
+                    <td>Liskov Substitution Principle (LSP)</td>
+                    <td>Objects of a superclass should be replaceable with objects of its subclasses without affecting the functionality.</td>
+                </tr>
+                <tr>
+                    <td>Dependency Injection (DI)</td>
+                    <td>Objects should depend on abstractions, not on concretions.</td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </div>
+
+
+    <h2>
+        <span>Q: Name few Design Patterns </span>
+        <button class="toggle-btn">Answer</button>
+    </h2>
+    <div class="panel">
+        <h3>Answer:</h3>
+      
+        <table>
+            <thead>
+                <tr>
+                    <th>Pattern</th>
+                    <th>Description</th>
+                    <th>Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Singleton Pattern</td>
+                    <td>Ensures a class has only one instance and provides a global point of access to it.</td>
+                    <td>Spring Framework's singleton beans.</td>
+                </tr>
+                <tr>
+                    <td>Factory Pattern</td>
+                    <td>Defines an interface for creating objects, but lets subclasses decide which class to instantiate.</td>
+                    <td>java.util.Calendar class uses getInstance() method to create Calendar objects.</td>
+                </tr>
+                <tr>
+                    <td>Abstract Factory Pattern</td>
+                    <td>Provides an interface to create families of related or dependent objects without specifying their concrete classes.</td>
+                    <td>javax.xml.parsers.DocumentBuilderFactory.</td>
+                </tr>
+                <tr>
+                    <td>Prototype Pattern</td>
+                    <td>Used when creating an instance of a class is expensive or complex. It involves creating new objects by copying an existing object, known as the prototype.</td>
+                    <td>java.lang.Object's clone() method.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        
+    </div>
+
+
+    <h2>
+        <span>Q: How to Create a Singleton Class?</span>
+        <button class="toggle-btn">Answer</button>
+    </h2>
+    <div class="panel">
+        <h3>Answer:</h3>
+        <p>To create a singleton class, you can use the following approach:</p>
+        <pre>
+            public class Singleton {
+                private static final Singleton instance = new Singleton();
+            
+                private Singleton() {}
+            
+                public static Singleton getInstance() {
+                    return instance;
+                }
+            }
+        </pre>      
+    </div>
+
+
+    <h2>
+        <span>Q: How to Create an Immutable Class?</span>
+        <button class="toggle-btn">Answer</button>
+    </h2>
+    <div class="panel">
+        <h3>Answer:</h3>
+        <p>To create an immutable class, follow these steps:</p>
+        <ul>
+            <li>Make the class final so it cannot be extended.</li>
+            <li>Make all fields private and final.</li>
+            <li>Do not provide setter methods for fields.</li>
+            <li>Ensure that methods do not modify the state of the object.</li>
+            <li>Return a new instance for methods that modify the state, instead of modifying the current instance.</li>
+        </ul>    
+    </div>
+
+
+    <!-- Add more questions and answers as needed -->
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var panels = document.querySelectorAll(".panel");
+            panels.forEach(function(panel) {
+                var toggleBtn = panel.previousElementSibling;
+                toggleBtn.addEventListener("click", function() {
+                    panel.classList.toggle("show-panel");
+                });
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,160 @@
+
+
+
+ACO    =   Ant Colony Optimization
+AI    =     Artificial Intelligence
+APIDS    =   Application protocol-based intrusion detection systems
+ANOVA    =   Analysis of Variance
+ANN    =    Artificial Neural Network 
+ARF    =    Adaptive Random Forest method 
+ASE    =    Attack Session Extraction
+AV    =    Anti-Viruses 
+CAPTCHA    =    Completely Automated Public Turing test to tell Computers and Humans Apart
+CERT    =    Computer Emergency Response Team
+CIDN    =    Collaborative Intrusion Detection Network
+CIRF    =    Class Incremental Random Forest
+cuckoo search algorithm (CSA), 
+CSOC    =     Cyber Security Operations Centre
+CVE    =    Cyber Vulnerabilities and Exposures
+CVSS    =    Common Vulnerability Scoring System
+DoS    =    Denial of Service
+DL    =    Deep Learning
+DMO    =     Diabetic Macular Oedema
+DNS    =    Domain Name System
+DSM-5    =    Diagnostic and Statistical Manual of Mental Disorders
+DUTs/DUT     =    Device Under Test
+EIID&P    =    Environmental Awareness Intrusion Detection and Prevention
+ELM    =    Extreme Learning Machine
+FCM    =    Fuzzy C Mean
+FDAS    =     Fire Detection and Fire Alarm Systems
+FP    =    False Positive
+FPNA     =      False Positive/Negative Assessment
+FPR     =      False Positive Rate
+FN    =    False Negative
+GA    =    Genetic Algorithm
+GDP    =    Gross Domestic Product
+GUI    =    Graphical User Interface
+GWO    =    grey wolf optimization
+HCI    =    Human Computer Interaction
+HIDS    =    Hybrid Intrusion detection system
+HMI    =    Human Machine Interface
+HMM    =    Hidden Markov Models
+HOG    =    Histogram of Oriented Gradients
+HSA    =    Harmony Search Algorithm 
+IDP    =    Intrusion Detection and Prevention
+IDS    =    Intrusion detection system
+IoT    =    Internet of Things
+IPSs    =     Intrusion Prevention Systems
+IT    =    Information Technology
+IUI    =     Intelligent User Interface 
+KMO    =     Kaiser-Meyer-Olkin
+NSL-KDD    =     Network Security Laboratory - Knowledge Discovery in Databases
+MANET    =     Mobile Ad Hoc Network
+ML    =     Machine learning 
+NIDS    =    Network-based Intrusion Detection System
+nvAMD    =    Neovascular Age-related Macular Degeneration
+OT     =    Operational Technology
+PCAPLib     =    It is the framework providing extracted, well-classified, and anonymized packet traces.
+PHP    =    Hypertext Preprocessor
+PIDS    =    Protocol-based intrusion detection system
+PSO    =    Particle swarm optimization
+RF    =    Random Forest
+R2L    =    Root-to-local 
+RL    =    Reinforcement learning 
+RTRF     =    Random Trust Random Forest 
+SA    =    Simulated Annealing 
+SQL    =    Structured Query Language
+SNORT    =    It is a free open source network intrusion detection system (IDS) and intrusion prevention system (IPS)
+SOC     =    Security Operations Centre
+STRIDE    =    Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, and Elevation of Privilege
+SWOT    =    Strengths, Weaknesses, Opportunities, and Threats,
+TCP/IP    =    Transmission Control Protocol/Internet Protocol 
+TN     =       True Negative
+TP    =     True Positive
+VPN    =     Virtual Private Network 
+VUI    =    Voice User Interface
+WAP    =    Web Application Protection
+
+According to many security analysts, security incidents reached the highest number ever recorded in 2019. From phishing to ransomware, from dark web as a service economy to attacks on civil infrastructure, the cybersecurity landscape involved attacks that grew increasingly sophisticated during the year. This upwards trend continued in 2020. The volume of malware threats observed averaged 419 threats per minute, an increase of 44 threats per minute (12%) in the second quarter of 2020. Cyber criminals managed to exploit the Covid19 pandemic and the growing online dependency of individuals and corporations, leveraging potential vulnerabilities of remote devices and bandwidth security. According to Interpol, 907,000 spam messages related to Covid-19 were detected between June and April 2020. Similarly, the 2020 Remote Workforce Cybersecurity Report showed that nearly two thirds of respondents saw an increase in breach attempts, with 34% of those surveyed having experienced a breach during the shift to telework. Exploiting the potential for high impact and financial benefit, threat actors deployed themed phishing emails impersonating government and health authorities to steal personal data and deployed malware against critical infrastructure and healthcare institutions.
+
+As per different po
+Many cyber security institutions has shown the upward trend year on year in cybersecurity attacks which includes Identity theft, Data breach , ransomware attacks, phishing attacks, suspicious and malware activities from dark web. Nearly 50% of the cyber attacks are done on small and medium size buisness. Due to breakout of pandemic for the Covid-19, organizations and individual's dependency on online has grown significantly. As a result companies cannot ignore security issues also another challenge is that they cannot afford a large SOC team due to their budget and domain constraints. Therefore the smart way is to leverage advance technological development majorly usning Machine learning techniques and build low cost solution which would robust and non IT organizations would able to maintain such systems.
+
+
+==================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-Every learning algorithm has its own merits and demerits. 
+There are both advantages and disadvantages for all the ML algorithms.
+
+-Total seven AI models analysed in this study has brought versatility to the research. 
+Analysis of different AI model in has provided variety to the research
+
+-Most of the models performed effectively less SGD and more or less CNN. 
+
+-The AI model\'s suitability in cyber security was tested in two steps. 
+
+-Both the steps provided the AI model’s prudency in cyber security. 
+
+-Use of two separate data sets, KDD’99 and NSL-KDD, in two steps and training and testing methodologies also brought uniqueness in the study. 
+
+Pecuiarity in the study brought by using KDD and NSL-KDD data sets in methodologies for testing and training.
+
+-In addition, deep analysis through multiple cyber-attack detection by the AI models have further authenticate the credibility of AI in cyber security. 
+
+AI model making use of unsupervised learning for depth analytics, neuron network for model building for FP detection also solidify  authenticity of AI and a credible option for the cybersecurity.
+
+-A true aggressive model is consisting of higher accuracy and sensitivity and lower FPR. 
+High sensitivity and accuracy with lower false positive rate(FPR) is expected of agressive true model.
+
+-In most cases, all AI models ensure this principle. 
+Almost all the AI models follow these principles in many cases.
+
+-Final average accuracy, sensitivity and FPR results are also the testimonies of suitability of AI in the field of cyber security. 
+
+
+-Hence, it is concluded saying. “AI based cyber security is the prudent and time-worthy solution.” 
+
+-The two-emerging technology, cyber security and AI, has been blended in this research work. 
+
+This research is blend of two top trending technologies Artificial Intelligence an Cyber Security.
+
+-Attackers always choose to attack the defender, by achieving surprise. 
+
+-Therefore, use of modern technology’s the best arsenal to achieve surprise. 
+
+Defender parties are caught by suprise by the attacker most of times. That's why it best to have cutting edge technological sloutions to avoid such surprises.
+
+-Hence, it is expected to bring enormous success through this process of cyber defence.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
