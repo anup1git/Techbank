@@ -1,4 +1,4 @@
-package com.atos.fintect.thread;
+package com.example.simple.thread;
 
 public class VolatileExample {
     private static volatile boolean running = true;

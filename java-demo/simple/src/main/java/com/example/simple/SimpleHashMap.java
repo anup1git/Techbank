@@ -1,4 +1,4 @@
-package com.atos.fintect;
+package com.example.simple;
 public class SimpleHashMap<K, V> {
     // Initial capacity of the bucket array
     private static final int CAPACITY = 16;
