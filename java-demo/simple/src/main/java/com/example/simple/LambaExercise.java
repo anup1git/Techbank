@@ -1,4 +1,4 @@
-package com.atos.fintect;
+package com.example.simple;
 
 public class LambaExercise {
 

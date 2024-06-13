@@ -1,14 +1,14 @@
-package com.atos.fintect;
+package com.example.simple;
 
 import java.io.Serializable;
 
 enum Singleton implements Serializable, Cloneable {
+	
 	INSTANCE;
 
 	private int number;
 
 	Singleton() {
-
 	}
 
 	public void setNumber(int number) {
@@ -21,6 +21,7 @@ enum Singleton implements Serializable, Cloneable {
 }
 
 class SingletonClass implements Serializable, Cloneable {
+
 	private static SingletonClass INSTANCE;
 	private int number;
 
@@ -47,15 +48,14 @@ class SingletonClass implements Serializable, Cloneable {
 
 public class SingletonTest {
 
-
 	public static void main(String[] args) {
 		synchronizedTest();
 		reflectionTest();
 	}
-	
+
 	private static void reflectionTest() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	public static void synchronizedTest() {

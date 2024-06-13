@@ -1,4 +1,4 @@
-package com.atos.fintect;
+package com.example.simple;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,6 +12,7 @@ public class Account {
 	}
 
 	public static void main(String[] args) {
+		
 		Account account = new Account();
 		account.helloWorld();
 		

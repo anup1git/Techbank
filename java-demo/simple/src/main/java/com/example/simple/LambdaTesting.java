@@ -1,4 +1,4 @@
-package com.atos.fintect;
+package com.example.simple;
 
 import java.util.ArrayList;
 import java.util.List;
